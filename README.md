@@ -27,13 +27,13 @@ sed 's#.app/Contents/_MASReceipt/receipt#.app#g; s#/Applications/##'
 
 ## Step 2: Download this repo
 
-At this stage, Github access hasn't been set up on the system, so  grab this repo using ```wget``` so its scripts can be run. *(We'll checkout the repo to it's permanent location later).*
+At this stage, Github access hasn't been set up on the system, so  grab this repo using ```curl``` so its scripts can be run. *(We'll checkout the repo to it's permanent location later).*
 
 Open Terminal and enter:
 
 ```
 cd ~
-wget https://github.com/ursooperduper/mac-setup/archive/master.zip
+curl -O https://github.com/ursooperduper/mac-setup/archive/master.zip
 ```
 
 Then enter ```unzip``` to extract the zip file to your home directory with the folder name, ```mac-setup-master```.
