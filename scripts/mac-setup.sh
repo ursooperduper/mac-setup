@@ -138,11 +138,6 @@ printf "  🔶  Attempting to symlink .vimrc...\n"
 ln -s ~/code/personal/dotfiles/.vimrc ~/.vimrc
 printf "  ✅  .vimrc symlinked\n"
 
-
-printf "  🔶  Attempting to run OSX customization...\n"
-. ~/code/personal/dotfiles/.osx
-printf "  ✅  OS X customization completed\n"
-
 # Install Homebrew (package manager).
 if [ hash brew 2 >/dev/null ]; then
   printf "  🔶  Installing Homebrew...\n"
