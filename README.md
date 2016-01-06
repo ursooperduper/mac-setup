@@ -25,8 +25,6 @@ find /Applications \
 sed 's#.app/Contents/_MASReceipt/receipt#.app#g; s#/Applications/##'
 ```
 
-
-
 ## Step 2: Download this repo
 
 At this stage, Github access hasn't been set up on the system, so  grab this repo using ```wget``` so its scripts can be run. *(We'll checkout the repo to it's permanent location later).*
