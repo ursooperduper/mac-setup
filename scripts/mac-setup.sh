@@ -96,7 +96,7 @@ ln -s ~/code/personal/keys/.gitconfig ~/.gitconfig
 printf "  ✅  .gitconfig symlinked\n"
 
 # .atom repo: This repository contains config files for Atom.
-if [ ! -d ~/code/personal/.atom ]; the
+if [ ! -d ~/code/personal/.atom ]; then
   printf "  🔶  Attempting to clone .atom repo...\n"
   git clone git@github.com:ursooperduper/.atom.git
   printf "  ✅  .atom repo cloned\n"
@@ -115,15 +115,15 @@ ln -s ~/code/personal/dotfiles/.bash-bindings ~/.bash-bindings
 printf "  ✅  .bash-bindings symlinked\n"
 
 printf "  🔶  Attempting to symlink .bash-profile...\n"
-ln -s ~/code/personal/dotfiles/.bash-profile ~/.bash-profile
+ln -s ~/code/personal/dotfiles/.bash_profile ~/.bash_profile
 printf "  ✅  .bash-profile symlinked\n"
 
 printf "  🔶  Attempting to symlink .bashrc...\n"
 ln -s ~/code/personal/dotfiles/.bashrc ~/.bashrc
 printf "  ✅  .bashrc symlinked\n"
 
-printf "  🔶  Attempting to symlink .git-completion.sh...\n"
-ln -s ~/code/personal/dotfiles/.git-completion.sh ~/.git-completion.#!/bin/sh
+printf "  🔶  Attempting to symlink .git_completion.sh...\n"
+ln -s ~/code/personal/dotfiles/.git_completion.sh ~/.git_completion.sh
 printf "  ✅  .git-completion symlinked\n"
 
 printf "  🔶  Attempting to symlink .gitignore...\n"
@@ -144,7 +144,7 @@ printf "  🔶  Attempting to run OSX customization...\n"
 printf "  ✅  OS X customization completed\n"
 
 # Install Homebrew (package manager).
-if [ hash brew 2>/dev/null ]; then
+if [ hash brew 2 >/dev/null ]; then
   printf "  🔶  Installing Homebrew...\n"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
@@ -159,7 +159,7 @@ printf "  ✅  Brew Cask Versions installed\n"
 # Install Homebrew binaries.
 cd ~/mac-setup-master
 printf "  🔶  Installing Homebrew binaries...\n"
-. brew-binaries.sh
+. scripts/brew-binaries.sh
 printf "  ✅  Brew binaries installed\n"
 
 # Install Homebrew cask (support for managing apps via Homebrew)
@@ -168,7 +168,7 @@ brew tap caskroom/cask
 printf "  ✅  Brew cask installed\n"
 
 # Install Homebrew cask binaries.
-. brew-cask-apps.sh
+. scripts/brew-cask-apps.sh
 printf "  ✅  Brew Cask binaries installed\n"
 
 # Install Homebrew font support.
@@ -176,7 +176,7 @@ brew tap caskroom/fonts
 printf "  ✅  Brew Cask Fonts installed\n"
 
 # Install Homebrew cask fonts.
-. brew-fonts.sh
+. scripts/brew-fonts.sh
 printf "  ✅  Brew cask fonts installed\n"
 
 # Install gems
