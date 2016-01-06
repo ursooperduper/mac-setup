@@ -17,6 +17,7 @@ apps=(
   firefox
   framer-studio
   google-chrome
+  heroku-toolbelt
   hex-fiend
   iterm2
   iterm2-beta
