@@ -124,38 +124,14 @@ After a successful set up, install:
 
 Next, run and set up all the apps that should start every time you log in.
 
-### Caffeine
-
-[Caffeine](http://lightheadsw.com/caffeine/) is a great app that lives in the menu bar and when clicked, prevents your machine from going to sleep, starting the screensaver, or dimming the screen.
-
-### Clean My Mac
-
-[Clean My Mac](http://macpaw.com/cleanmymac) helps keep your machine running smoothly by scheduling clean ups of system files, helps you completely uninstall apps, and a whole host of other maintenance functions.  
-
-### Noizio
-
-[Noizio](http://noiz.io/) is a small app that helps you concentrate with subtle background sounds like rushing water, cafes, campfire, thunderstorm, white noise, etc. You can blend sounds and adjust volume in the app. Best of all, it's free!
-
-### Boom 2
-
-[Boom 2](http://www.globaldelight.com/boom/index.php) is an equalizer and volume booster. It makes music and video sound waaaaay better. Just get it.
-
-### SizeUp
-
-[SizeUp](http://www.irradiatedsoftware.com/sizeup/) is a window manager that makes it easy to doc windows and move them between displays.
-
-### Beautiful Earth
-
-[Beautiful Earth](https://beautifulearth.io/) is a small wallpaper that provides gorgeous satellite imagery of various locations.
-
-### Dash
-
-[Dash](https://kapeli.com/dash) is a documentation browser that can be integrated with Alfred, Atom, Sublime, and more.
-
-### Bartender
-
-[Bartender 2](https://www.macbartender.com/) is a utility that helps you keep your menu bar clean by moving menu bar icons to a separate bar.
-
+* [Bartender 2](https://www.macbartender.com/)
+* [Beautiful Earth](https://beautifulearth.io/)
+* [Boom 2](http://www.globaldelight.com/boom/index.php)
+* [Caffeine](http://lightheadsw.com/caffeine/)
+* [Clean My Mac](http://macpaw.com/cleanmymac)
+* [Dash](https://kapeli.com/dash)
+* [Noizio](http://noiz.io/)
+* [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
 
 ## Step 9: Add Themes to iTerm 2
 
@@ -163,7 +139,7 @@ Run iTerm and then download the color schemes available [here](http://iterm2colo
 
 ## Step 10: Set up Screensaver
 
-[Aerial](https://github.com/JohnCoates/Aerial) is a screensaver that uses the same aerial movies the new Apple TV uses with views of SF, NYC, etc.
+[Aerial](https://github.com/JohnCoates/Aerial)
 
 ## Step 11: Install Kindle & Download Reference Material
 
@@ -171,6 +147,7 @@ I like to keep reference material in ebook form, so it's very portable. After lo
 
 ## Step 12: Add Licenses for Other Apps
 
+* Framer Studio
 * Omnigraffle
 * Reflector
 * Sketch
