@@ -140,12 +140,6 @@ Next, run and set up all the apps that should start every time you log in.
 
 [Boom 2](http://www.globaldelight.com/boom/index.php) is an equalizer and volume booster. It makes music and video sound waaaaay better. Just get it.
 
-### Poolside FM
-
-[Poolside FM](http://poolside.fm/mac/) is a radio station and small app that self-describes itself as:
-
->"Poolside FM feels like a collection of records collated by an '80s Floridian pornstar"
-
 ### SizeUp
 
 [SizeUp](http://www.irradiatedsoftware.com/sizeup/) is a window manager that makes it easy to doc windows and move them between displays.
