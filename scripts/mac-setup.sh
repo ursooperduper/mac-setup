@@ -54,6 +54,14 @@ if [[ $REPLY =~ ^[Cc]$ ]]; then
   printf "\n\n  ✅  SSH key added to Github\n"
 fi
 
+cd ~
+# .atom repo: This repository contains config files for Atom.
+if [ ! -d ~/.atom ]; then
+  printf "  🔶  Attempting to clone .atom repo...\n"
+  git clone git@github.com:ursooperduper/.atom.git
+  printf "  ✅  .atom repo cloned\n"
+fi
+
 if [ ! -d ~/code/personal ]; then
   printf "  🔶  Creating ~/code/personal...\n"
   mkdir -p ~/code/personal
@@ -95,12 +103,6 @@ printf "  🔶  Attempting to symlink .gitconfig...\n"
 ln -s ~/code/personal/keys/.gitconfig ~/.gitconfig
 printf "  ✅  .gitconfig symlinked\n"
 
-# .atom repo: This repository contains config files for Atom.
-if [ ! -d ~/code/personal/.atom ]; then
-  printf "  🔶  Attempting to clone .atom repo...\n"
-  git clone git@github.com:ursooperduper/.atom.git
-  printf "  ✅  .atom repo cloned\n"
-fi
 
 # dotfiles: This repository contains personal configuration files for various tools.
 if [ ! -d ~/code/personal/dotfiles ]; then
@@ -120,6 +122,10 @@ printf "  ✅  .bash-profile symlinked\n"
 
 printf "  🔶  Attempting to symlink .bashrc...\n"
 ln -s ~/code/personal/dotfiles/.bashrc ~/.bashrc
+printf "  ✅  .bashrc symlinked\n"
+
+printf "  🔶  Attempting to symlink .gemrc...\n"
+ln -s ~/code/personal/dotfiles/.gemrc ~/.gemrc
 printf "  ✅  .bashrc symlinked\n"
 
 printf "  🔶  Attempting to symlink .git_completion.sh...\n"
