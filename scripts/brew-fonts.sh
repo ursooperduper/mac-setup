@@ -19,7 +19,6 @@ fonts=(
   font-cabin-sketch
   font-comfortaa
   font-droid-serif
-  font-droid-sans-mono
   font-fira-mono
   font-fira-code
   font-fira-sans
