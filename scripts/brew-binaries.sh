@@ -4,6 +4,7 @@
 binaries=(
   ack
   archey
+  bash-completion git
   caskroom/cask/brew-cask
   curl
   fontconfig
