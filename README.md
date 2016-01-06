@@ -39,7 +39,14 @@ curl -O https://github.com/ursooperduper/mac-setup/archive/master.zip
 Then enter ```unzip``` to extract the zip file to your home directory with the folder name, ```mac-setup-master```.
 
 
-## Step 3: Customize OS X
+## Step 3: Java Stuff
+
+Unfortunately, some tools require Java. So you need to download and install the following:
+
+* [Java for OS X](http://java.com/en/download/mac_download.jsp)
+* [Java SE Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+
+## Step 4: Customize OS X
 
 The ```.osx``` script customizes the OS so it runs the way I like it.  It's based on the awesome work found here: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
@@ -50,7 +57,7 @@ cd ~/mac-setup-master
 . scripts/.osx
 ```
 
-## Step 4: Run mac-setup.sh
+## Step 5: Run mac-setup.sh
 
 Navigate to the ```mac-setup-master``` directory and run the mac-setup script.
 
@@ -76,7 +83,7 @@ The mac-setup script does the following:
 
 *Note:It may be necessary to run the script more than once for machine restarts and installations. I'll improve the script over time to address that flow.*
 
-## Step 5: Set up Dropbox
+## Step 6: Set up Dropbox
 
 Run the [Dropbox](http://dropbox.com) app, log in for the first time, and then customize which directories are synced to the machine. The most important directories to include in the selective sync are:
 
@@ -85,19 +92,19 @@ Run the [Dropbox](http://dropbox.com) app, log in for the first time, and then c
 * Dash
 * Fonts
 
-## Step 6: Copy fonts to ~/fonts folder
+## Step 7: Copy fonts to ~/fonts folder
 
 Where possible, fonts are installed using Homebrew.  The rest of my fonts are saved to Dropbox (and are now synced to this machine - thanks, Step 4!).
 
 There may be a better way to do this, but next, I copy my fonts from ~/Dropbox/Fonts to the ~/fonts folder.
 
-## Step 7: Set up 1Password
+## Step 8: Set up 1Password
 
 Open 1Password and go through its setup. In the process, be sure to point the archive at the ~/Dropbox/1Password.agilekeychain folder.
 
 **Keep 1Password open for now as you'll need it throughout your machine setup.**
 
-## Step 8: Set up Alfred
+## Step 9: Set up Alfred
 
 ### Add Powerpack License
 
@@ -113,7 +120,7 @@ These files include Alfred preferences, extensions, custom sites, etc. There are
 
 Finally, go to the Features tab in the Preferences dialog and enable 1Password integration.
 
-## Step 9: Set up Browsers
+## Step 10: Set up Browsers
 
 Install Browser Extensions for Chrome, Firefox, and Safari
 * 1Password
@@ -124,7 +131,7 @@ I also like to use Booky.io to store my bookmarks (I think, I'm still experiment
 
 Set up work profiles as necessary (I like to do this in Chrome to keep work and personal email separate).
 
-## Step 10: Log into Adobe Creative Cloud & Set Up
+## Step 11: Log into Adobe Creative Cloud & Set Up
 
 Run Adobe Creative Cloud and set it to run on startup.
 
@@ -132,7 +139,7 @@ After a successful set up, install:
 * Photoshop
 * Illustrator
 
-## Step 11: Set up Startup Apps
+## Step 12: Set up Startup Apps
 
 Next, run and set up all the apps that should start every time you log in.
 
@@ -145,19 +152,19 @@ Next, run and set up all the apps that should start every time you log in.
 * [Noizio](http://noiz.io/)
 * [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
 
-## Step 12: Add Themes to iTerm 2
+## Step 13: Add Themes to iTerm 2
 
 Run iTerm and then download the color schemes available [here](http://iterm2colorschemes.com). Follow the instructions on the site for installation.
 
-## Step 13: Set up Screensaver
+## Step 14: Set up Screensaver
 
 [Aerial](https://github.com/JohnCoates/Aerial)
 
-## Step 14: Install Kindle & Download Reference Material
+## Step 15: Install Kindle & Download Reference Material
 
 I like to keep reference material in ebook form, so it's very portable. After logging in to the Kindle, download programming and design references books from my Kindle account.
 
-## Step 15: Add Licenses for Other Apps
+## Step 16: Add Licenses for Other Apps
 
 * Framer Studio
 * Omnigraffle
