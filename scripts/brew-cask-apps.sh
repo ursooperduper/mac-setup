@@ -15,6 +15,7 @@ apps=(
   dropbox
   evernote
   firefox
+  framer-studio
   google-chrome
   hex-fiend
   iterm2
