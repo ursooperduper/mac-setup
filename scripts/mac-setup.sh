@@ -184,6 +184,11 @@ printf "  ✅  Brew cask fonts installed\n"
 . gems.sh
 printf "  ✅  Gems installed\n"
 
+# Install RVM
+printf " Attempting to install RVM"
+\curl -sSL https://get.rvm.io | bash -s stable
+prinf "  ✅  Installed RVM"
+
 # Clone projects from git
 cd ~/code/personal
 
