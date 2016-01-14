@@ -22,6 +22,7 @@ apps=(
   iterm2
   iterm2-beta
   kindle
+  knock
   minecraft
   myo-connect
   narrative-uploader
