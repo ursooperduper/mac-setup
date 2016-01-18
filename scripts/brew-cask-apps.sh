@@ -40,7 +40,6 @@ apps=(
   sonos
   spotify
   steam
-  transmit
   unrarx
   vox
 )
