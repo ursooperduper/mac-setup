@@ -38,10 +38,8 @@ apps=(
   skitch
   slack
   sonos
-  spotify
   steam
   unrarx
-  vox
 )
 
 brew cask install ${apps[@]}
