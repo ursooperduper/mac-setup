@@ -17,6 +17,7 @@ apps=(
   firefox
   framer-studio
   google-chrome
+  google-drive
   heroku-toolbelt
   hex-fiend
   iterm2
@@ -29,17 +30,16 @@ apps=(
   noizio
   omnigraffle
   poolside-fm
-  postgres
   processing
   reflector
   sizeup
   sketch
   sketch-toolbox
-  skitch
   slack
   sonos
   steam
   unrarx
+  zeplin
 )
 
 brew cask install ${apps[@]}

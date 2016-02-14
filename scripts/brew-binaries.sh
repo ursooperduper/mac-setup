@@ -15,7 +15,6 @@ binaries=(
   mysql
   node
   openssl
-  postgresql
   redis
   ruby
   sqlite
