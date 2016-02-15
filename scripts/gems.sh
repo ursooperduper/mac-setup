@@ -27,6 +27,7 @@ gems=(
   sinatra
   t
   thin
+  trello_cli
   twitter
   xcodeproj
   yaml-lint
