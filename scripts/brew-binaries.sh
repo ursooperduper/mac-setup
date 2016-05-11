@@ -3,6 +3,7 @@
 # Homebrew binaries
 binaries=(
   ack
+  apg
   archey
   bash-completion git
   caskroom/cask/brew-cask
