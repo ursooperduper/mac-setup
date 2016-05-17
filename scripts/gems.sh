@@ -14,6 +14,7 @@ gems=(
   haml
   html-proofer
   jekyll
+  jekyll-crosspost-to-medium
   jekyll-gist
   json
   oauth
