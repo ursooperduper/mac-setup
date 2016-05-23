@@ -19,6 +19,7 @@ binaries=(
   redis
   ruby
   sqlite
+  thefuck
   the_silver_searcher
   tmux
 )
