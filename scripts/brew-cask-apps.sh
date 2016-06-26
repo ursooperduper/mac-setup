@@ -7,13 +7,11 @@ apps=(
   alfred
   atom
   bartender
-  bittorrent
   boom
   caffeine
   cleanmymac
   dash
   dropbox
-  evernote
   firefox
   framer-studio
   google-chrome
@@ -24,11 +22,9 @@ apps=(
   iterm2-beta
   kindle
   knock
-  minecraft
-  myo-connect
-  narrative-uploader
   noizio
   omnigraffle
+  omniplan
   poolside-fm
   processing
   reflector
@@ -37,8 +33,8 @@ apps=(
   sketch-toolbox
   slack
   sonos
-  steam
   unrarx
+  xscope
   zeplin
 )
 
