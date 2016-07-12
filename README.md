@@ -7,10 +7,7 @@ This repo contains a set of instructions and scripts that I use to set up my env
 I haven't yet found a way to automate downloading App Store apps, so the first step in this process is to run App Store.app and install the necessary apps. In my case, this is:
 
 * [1Password](https://agilebits.com/onepassword)
-* [Beautiful Earth](https://beautifulearth.io/)
 * [Boxy](http://www.boxyapp.co/)
-* [Clear](http://realmacsoftware.com/clear/)
-* [Icon Slate](http://www.kodlian.com/apps/icon-slate)
 * [Tweetbot](http://tapbots.com/tweetbot/mac/)
 * [Xcode](https://developer.apple.com/xcode/)
 
