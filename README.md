@@ -46,15 +46,15 @@ Unfortunately, some tools require Java. So you need to download and install the 
 * [Java for OS X](http://java.com/en/download/mac_download.jsp)
 * [Java SE Runtime Environment](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 
-## Step 4: Customize OS X
+## Step 4: Customize MacOS
 
-The ```.osx``` script customizes the OS so it runs the way I like it.  It's based on the awesome work found here: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+The ```.macos``` script customizes the OS so it runs the way I like it.  It's based on the awesome work found here: https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 
 In Terminal, enter:
 
 ```
 cd ~/mac-setup-master
-. scripts/.osx
+. scripts/.macos
 ```
 
 ## Step 5: Run mac-setup.sh
