@@ -1,0 +1,4 @@
+1Password
+Tweetbot
+Ulysses
+XCode
