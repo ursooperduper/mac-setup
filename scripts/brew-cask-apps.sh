@@ -29,6 +29,7 @@ apps=(
   poolside-fm
   processing
   quadrosync
+  raindropio
   reflector
   sizeup
   sketch
