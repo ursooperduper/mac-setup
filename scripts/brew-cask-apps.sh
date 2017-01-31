@@ -25,6 +25,7 @@ apps=(
   knock
   narrative-uploader
   noizio
+  nudgit
   poolside-fm
   processing
   quadrosync
