@@ -10,8 +10,8 @@ apps=(
   boom
   caffeine
   cleanmymac
-  dash
   dropbox
+  duet
   firefox
   framer-studio
   google-chrome
@@ -20,19 +20,21 @@ apps=(
   hex-fiend
   iterm2
   iterm2-beta
+  jadengeller-helium
   kindle
   knock
+  narrative-uploader
   noizio
-  omnigraffle
-  omniplan
   poolside-fm
   processing
+  quadrosync
   reflector
   sizeup
   sketch
   sketch-toolbox
   slack
   sonos
+  switchresx
   unrarx
   xscope
   zeplin

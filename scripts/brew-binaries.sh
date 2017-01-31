@@ -13,9 +13,12 @@ binaries=(
   git
   imagemagick
   irssi
+  mas
   mysql
   node
   openssl
+  rbenv
+  readline
   redis
   ruby
   sqlite
