@@ -18,6 +18,7 @@ apps=(
   google-drive
   heroku-toolbelt
   hex-fiend
+  iconjar
   iterm2
   iterm2-beta
   jadengeller-helium
