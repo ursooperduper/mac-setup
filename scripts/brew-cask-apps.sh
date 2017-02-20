@@ -30,6 +30,7 @@ apps=(
   quadrosync
   raindropio
   reflector
+  rescuetime
   sketch
   sketch-toolbox
   slack
