@@ -12,8 +12,9 @@ apps=(
   cleanmymac
   dropbox
   duet
+  fantastical
   firefox
-  framer-studio
+  framer
   google-chrome
   google-drive
   heroku-toolbelt
@@ -23,16 +24,13 @@ apps=(
   iterm2-beta
   jadengeller-helium
   kindle
-  knock
-  narrative-uploader
   noizio
   nudgit
-  poolside-fm
   processing
   quadrosync
   raindropio
   reflector
-  sizeup
+  rescuetime
   sketch
   sketch-toolbox
   slack
@@ -40,7 +38,6 @@ apps=(
   switchresx
   unrarx
   xscope
-  zeplin
 )
 
 brew cask install ${apps[@]}
