@@ -193,11 +193,11 @@ prinf "  ✅  Installed RVM"
 cd ~/code/personal
 
 # Blog
-git clone git@github.com:ursooperduper/ursooperduper.github.io.git
-printf "  ✅  Blog repo cloned\n"
-cd ~/code/personal/ursooperduper.github.io
-npm install
-bundle install
+# git clone git@github.com:ursooperduper/ursooperduper.github.io.git
+# printf "  ✅  Blog repo cloned\n"
+# cd ~/code/personal/ursooperduper.github.io
+# npm install
+# bundle install
 
 # Cheatsheets
 cd ~/code/personal
@@ -208,12 +208,12 @@ npm install
 bundle install
 
 # Prototypes
-cd ~/code/personal
-git clone git@github.com:ursooperduper/prototypes.git
-printf "  ✅  Prototypes repo cloned\n"
-cd ~/code/personal/prototypes
-npm install
-bundle install
+# cd ~/code/personal
+# git clone git@github.com:ursooperduper/prototypes.git
+# printf "  ✅  Prototypes repo cloned\n"
+# cd ~/code/personal/prototypes
+# npm install
+# bundle install
 
 # Mac-Setup
 cd ~/code/personal
