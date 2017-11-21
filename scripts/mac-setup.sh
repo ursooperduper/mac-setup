@@ -55,12 +55,6 @@ if [[ $REPLY =~ ^[Cc]$ ]]; then
 fi
 
 cd ~
-# .atom repo: This repository contains config files for Atom.
-if [ ! -d ~/.atom ]; then
-  printf "  🔶  Attempting to clone .atom repo...\n"
-  git clone git@github.com:ursooperduper/.atom.git
-  printf "  ✅  .atom repo cloned\n"
-fi
 
 if [ ! -d ~/code/personal ]; then
   printf "  🔶  Creating ~/code/personal...\n"
