@@ -3,13 +3,6 @@
 # Install brew cask font compatible fonts
 fonts=(
   font-anonymous-pro
-  font-hack
-  font-inconsolata
-  font-droid-sans-mono
-  font-droid-sans
-  font-source-code-pro
-  font-source-sans-pro
-  font-ubuntu
   font-arvo
   font-baumans
   font-bowlby-one
@@ -18,10 +11,14 @@ fonts=(
   font-cabin-condensed
   font-cabin-sketch
   font-comfortaa
+  font-droid-sans-mono
+  font-droid-sans
   font-droid-serif
   font-fira-mono
   font-fira-code
   font-fira-sans
+  font-hack
+  font-inconsolata
   font-lato
   font-lobster
   font-montserrat
@@ -29,6 +26,9 @@ fonts=(
   font-open-sans
   font-open-sans-condensed
   font-paytone-one
+  font-source-code-pro
+  font-source-sans-pro
+  font-ubuntu
   font-titan-one
   font-varela
 )
