@@ -5,38 +5,39 @@ apps=(
   adobe-creative-cloud
   aerial
   alfred
-  atom
   bartender
-  boom
   caffeine
   cleanmymac
   dropbox
   duet
   fantastical
   firefox
+  flinto
   framer
+  github-desktop
   google-chrome
-  google-drive
-  heroku-toolbelt
+  grammarly
   hex-fiend
   iconjar
   iterm2
-  iterm2-beta
   jadengeller-helium
   kindle
+  lingo
+  noun-project
   noizio
   nudgit
+  obs
   processing
   quadrosync
-  raindropio
   reflector
-  rescuetime
   sketch
-  sketch-toolbox
   slack
   sonos
-  switchresx
+  spotify
+  timing
+  transmit
   unrarx
+  visual-studio-code
   xscope
 )
 
