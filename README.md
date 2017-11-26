@@ -2,16 +2,11 @@
 
 This repo contains a set of instructions and scripts that I use to set up my environment for work and play.
 
-## Step 1: Download App Store Apps
+## Step 1: Install XCode via the App Store
 
-I haven't yet found a way to automate downloading App Store apps, so the first step in this process is to run App Store.app and install the necessary apps. In my case, this is:
+Homebrew relies on build tools that are a part of XCode, so before you do anything else, download that.
 
-* [1Password](https://agilebits.com/onepassword)
-* [Boxy](http://www.boxyapp.co/)
-* [Tweetbot](http://tapbots.com/tweetbot/mac/)
 * [Xcode](https://developer.apple.com/xcode/)
-
-The most important app to install here is **Xcode**, this needs to be installed in order to proceed with the full environment setup.
 
 *Note: If you want to figure out which apps you've installed via the App Store, you can enter the following command:*
 
@@ -76,6 +71,7 @@ The mac-setup script does the following:
 * Symlinks relevant .keys and .dotfiles files (ex: .gitconfig, .bashrc)
 * Runs OS X Customization script (based on ...)
 * Installs Homebrew and Cask (versions, apps, fonts)
+* Installs mas which then lets you install your App Store apps
 * Installs Homebrew binaries, Cask binaries, Cask fonts, and Ruby Gems
 
 *Note:It may be necessary to run the script more than once for machine restarts and installations. I'll improve the script over time to address that flow.*
@@ -86,7 +82,6 @@ Run the [Dropbox](http://dropbox.com) app, log in for the first time, and then c
 
 * 1Password.agilekeychain
 * alfred
-* Dash
 * Fonts
 
 ## Step 7: Copy fonts to ~/fonts folder
@@ -121,12 +116,10 @@ Finally, go to the Features tab in the Preferences dialog and enable 1Password i
 
 Install Browser Extensions for Chrome, Firefox, and Safari
 * 1Password
-* Evernote Web Clipper
+* Dropmark
 * Ghostery
+* Grammarly
 
-I also like to use Booky.io to store my bookmarks (I think, I'm still experimenting with this.) You can drag a bookmark shortcut from the site to the browser.
-
-Set up work profiles as necessary (I like to do this in Chrome to keep work and personal email separate).
 
 ## Step 11: Log into Adobe Creative Cloud & Set Up
 
@@ -135,19 +128,15 @@ Run Adobe Creative Cloud and set it to run on startup.
 After a successful set up, install:
 * Photoshop
 * Illustrator
+* XD
 
 ## Step 12: Set up Startup Apps
 
 Next, run and set up all the apps that should start every time you log in.
 
-* [Bartender 2](https://www.macbartender.com/)
-* [Beautiful Earth](https://beautifulearth.io/)
-* [Boom 2](http://www.globaldelight.com/boom/index.php)
-* [Caffeine](http://lightheadsw.com/caffeine/)
+* [Bartender 3](https://www.macbartender.com/)
 * [Clean My Mac](http://macpaw.com/cleanmymac)
-* [Dash](https://kapeli.com/dash)
 * [Noizio](http://noiz.io/)
-* [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
 
 ## Step 13: Add Themes to iTerm 2
 

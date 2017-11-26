@@ -38,7 +38,7 @@ if [ -f ~/.ssh/id_rsa.pub ]; then
   printf "  ✅  SSH Key exists.\n\n"
 else
   printf "\n  🔶  Setting up your SSH key...\n"
-  read -p "Please enter your email address...carefully: "
+  read -p "Please enter your email address... carefully: "
   printf "  🔶  Attempting to create SSH key...\n"
   ssh-keygen -t rsa -C "$REPLY"
   printf "  ✅  SSH Key created.\n"
@@ -55,12 +55,6 @@ if [[ $REPLY =~ ^[Cc]$ ]]; then
 fi
 
 cd ~
-# .atom repo: This repository contains config files for Atom.
-if [ ! -d ~/.atom ]; then
-  printf "  🔶  Attempting to clone .atom repo...\n"
-  git clone git@github.com:ursooperduper/.atom.git
-  printf "  ✅  .atom repo cloned\n"
-fi
 
 if [ ! -d ~/code/personal ]; then
   printf "  🔶  Creating ~/code/personal...\n"
@@ -188,6 +182,14 @@ printf "  ✅  Gems installed\n"
 printf " Attempting to install RVM"
 \curl -sSL https://get.rvm.io | bash -s stable
 prinf "  ✅  Installed RVM"
+
+# Install App Store Apps
+printf " Attempting to install App Store apps"
+read -p "Please enter your App Store email address... : "
+mas signin --dialog $REPLY
+printf " Signed in and installing App Store apps"
+. scripts/mas-apps.sh
+printf "  ✅  Mac App Store apps installed\n"
 
 # Clone projects from git
 cd ~/code/personal
