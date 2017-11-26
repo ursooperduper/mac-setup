@@ -5,15 +5,19 @@ apps=(
   adobe-creative-cloud
   aerial
   alfred
+  astro
+  astropad
   bartender
   caffeine
   cleanmymac
   dropbox
   duet
   fantastical
+  figma
   firefox
   flinto
   framer
+  front
   github-desktop
   google-chrome
   grammarly
@@ -30,6 +34,7 @@ apps=(
   processing
   quadrosync
   reflector
+  sip
   sketch
   slack
   sonos
@@ -39,6 +44,7 @@ apps=(
   unrarx
   visual-studio-code
   xscope
+  zoom
 )
 
 brew cask install ${apps[@]}
