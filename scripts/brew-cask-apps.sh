@@ -39,6 +39,7 @@ apps=(
   slack
   sonos
   spotify
+  station
   timing
   transmit
   unrarx
