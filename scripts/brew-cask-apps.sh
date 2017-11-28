@@ -29,7 +29,6 @@ apps=(
   lingo
   noun-project
   noizio
-  notion
   nudgit
   obs
   processing
